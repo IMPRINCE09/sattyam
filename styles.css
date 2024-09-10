@@ -1310,3 +1310,138 @@ img {
       width: 100%;
      }
 }
+
+
+
+
+
+/* to new added section  */
+/* section portfolio */
+.mission_creator{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/846/173/87/5c1cbaf96bcec-wallpaper-preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+
+
+
+
+}
+.mission_section{
+ background-color: rgba(0,0,0,0.7);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+
+}
+.mission_one{
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.mission_one img{
+  max-width: 400px ;
+
+  border-radius: 10px;
+
+}
+
+.mission_two{
+  width: 50%;
+  margin: 10px;
+ color: white;
+
+}
+
+.mission_two h4{
+  font-size: 28px;
+  font-weight: 700;
+  
+}
+.mission_two  p{
+  font-size: 18px;
+}
+
+@media only screen and (max-width:700px){
+  .mission_section{
+      display: block;
+      justify-content:space-around;
+      width: 100%;
+
+  }
+  .mission_one{
+      width: 100%;
+      display: flex;
+       justify-content: center;
+
+      
+  }
+  .mission_one img{
+      width: 90%;
+  }
+  
+  .mission_two{
+      width: 90%;
+      margin: 10px;
+  
+  }
+  .carousel_item{
+         width: 100%;
+         height: 100%;
+
+  }
+  .carousel_item img{
+      width: 100%;
+      height: 100%;
+  }
+}
+
+/* scetion Contact details */
+.contact_sec{
+ background-color: #020266;
+ color: white;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.details_section{
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+}
+.details_section i{
+  padding: 10px;
+}
+
+/* footer section */
+.footer_section{
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly
+   ;
+   
+  
+
+}
+.footer_items{
+  display: flex;
+  gap: 20px;
+
+
+}
+
+.footer_items li{
+  list-style: none;
+
+}
+.footer_items li a{
+  text-decoration: none;
+}
